@@ -104,6 +104,11 @@ def run_hashcat(
             mask,
             "-w",
             "2",
+<<<<<<< Updated upstream
+=======
+            "--session",
+            session,
+>>>>>>> Stashed changes
             "-O",
         ]
         command_str = " ".join(shlex.quote(arg) for arg in command)
